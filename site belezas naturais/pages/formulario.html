@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <script src="/assets/script.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario Feedback </h1>
+        <nav>
+            <ul>
+                <li><a href="introdução.html">Introdução</a></li>
+                <li><a href="page1.html">Belezas Naturais</a></li>
+                <li><a href="page2.html">Dicas e Curiosidades</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <form action="send.php" method="POST">
+        <fieldset>
+            
+            <label for="">Nome:</label><br>
+        <input type="text" class="Nome" id="Nome" placeholder="Nome" name="Nome"><br><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="text" class="Email" id="Email" placeholder="Email" name="Email"><br><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea placeholder="Mensagem..." class="message" name="message"></textarea>
+        <br><br>
+        <input type="submit" value="Submit" class="btn">
+        </fieldset>
+        
+    </form>
+
+       
+</form>
+
+</body>
+</html>
